@@ -6,6 +6,7 @@ html, body {
 a {
     text-decoration: none;
     color: #D17A22;
+    font-family: "Consolas"
 }
 
 a:visited {
@@ -95,7 +96,7 @@ nav ul li a:hover {
 
 .landing-page-text {
     padding-top: 80px;
-    font-family: monospace;
+    font-family: "Consolas";
     color: lightgray;
     text-align: center; 
     margin: auto;
@@ -117,7 +118,7 @@ nav ul li a:hover {
 .small-text
 {
     padding-top: 10px;
-    font-family: monospace;
+    font-family: "Consolas";
     color: lightgray;
     text-align: center; 
     padding-left: 20px;
@@ -150,8 +151,16 @@ nav ul li a:hover {
     float: right;
 }
 
+.navItem {
+    font-family: "Consolas";
+}
 .navItem-footer-right {
     float: right;
+    font-family: "Consolas";
+}
+
+.navItem-footer {
+    font-family: "Consolas";
 }
 
 /* Mobile Styles */
