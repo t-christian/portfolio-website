@@ -16,4 +16,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_WEBSITE_30784 }}'
           channelId: live
-          projectId: danielchristian
+          projectId: portfolio-website-30784
