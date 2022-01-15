@@ -1,5 +1,8 @@
 /*Defaults*/
-
+html, body {
+    height: 100%;
+    margin: 0;
+}
 a {
     text-decoration: none;
     color: #D17A22;
@@ -9,8 +12,8 @@ a:visited {
     text-decoration: none;
     color: #D17A22;
 }
-nav, header, footer {
-    display:block;
+nav, header{
+    display: block;
 }
 
 body{
@@ -23,6 +26,7 @@ mark {
     text-decoration: none;
     background-color: #121212;
 }
+
 /* Nav Bar */
 
 nav {
@@ -55,6 +59,23 @@ nav ul li a:hover {
     color: white;
 }
 
+/*Column settings*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Custom Styles */
+
 .currentPage {
     background-color: #1c1c1c
 }
@@ -72,19 +93,6 @@ nav ul li a:hover {
     content: "";
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
 .landing-page-text {
     padding-top: 80px;
     font-family: monospace;
@@ -99,7 +107,6 @@ nav ul li a:hover {
     border: 5px solid #555;
     border-radius: 300px;
     height: auto;
-    width: 
 }
 
 .profilePic {
@@ -123,4 +130,60 @@ nav ul li a:hover {
     
 }
 
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -36px;
+}
 
+.footer, .push {
+    height: 19px;
+}
+
+.footer {
+    background-color: #252422;
+}
+
+.fire {
+    font-size: 20px;
+    color: lightgrey;
+    display: block;
+    float: right;
+}
+
+.navItem-footer-right {
+    float: right;
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-device-width: 1400px) {
+    
+    .mobile-column {
+        width: 100%;
+        padding: 0px;
+        margin: auto;
+    }
+    
+    
+    .profilePic {
+        text-align: center;
+        padding: 0px;
+        
+    }
+    
+    .landing-page-text {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 70px;
+    
+        
+    }
+    .small-text, .tech-icons, .material-icons {
+        padding: 0px;
+        margin: auto;
+        text-align: center;
+        font-size: 40px !important
+    }
+    
+    
+}

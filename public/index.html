@@ -7,41 +7,79 @@
       rel="stylesheet">
     </head>
 <body>
+	<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCj7VEmntBxzh9O5fnIWi_U3qD0xVvVv4I",
+    authDomain: "portfolio-website-30784.firebaseapp.com",
+    projectId: "portfolio-website-30784",
+    storageBucket: "portfolio-website-30784.appspot.com",
+    messagingSenderId: "725806065753",
+    appId: "1:725806065753:web:13c7ae3632626976962948",
+    measurementId: "G-J1NFP8RK14"
+  };
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+    <div class="wrapper">
     <nav>
         <ul>
             <li class="navItem currentPage"><a href="/">Home</a></li>
-            <li class="navItem"><a href="about.html">About</a></li>
+            <li class="navItem"><a href="/about.html">About</a></li>
             <li class="navItem"><a href="#">Projects</a></li>
             <li class="navItem"><a href="#">Contact</a></li>
         </ul> 
     </nav>
     <div class="row">
-    <div class="col-12">
-        <h1 class="landing-page-text">Hello, my name is <mark style=" color: #D17A22">Daniel S Christian</mark> and I'm a developer.</h1>
+    <div class="col-12 mobile-column">
+        <h1 class="landing-page-text mobile-column">Hello, my name is <mark style=" color: #D17A22">Daniel Christian</mark> and I'm a developer.</h1>
     </div>
     </div>
     <div class="row">
-        <div class="col-6">
+        <div class="col-6 mobile-column">
                 <div class="profilePic">
                     <img src="https://avatars.githubusercontent.com/u/97717621?v=4">
                 </div>
             </div>
-        <div class="col-4">
+        <div class="col-4 mobile-column">
             <div class="small-text">
                 <h2>Web Developer | Scrum Certified | Graduate Student</h2>
             </div>
-            <div class="tech-icons">
+            <div class="tech-icons mobile-column">
                 <i class="material-icons" style="font-size: 40px; color: lightgray; padding-right: 10px">html</i> <!-- 10px gives some space between html and css -->
                 <i class="material-icons" style="font-size: 40px; color: lightgray">css</i>
                 <i class="material-icons" style="font-size: 40px; color: lightgray">javascript</i>
             </div>
             
             <div>
-               <h2 class="small-text" style="padding-top: 0; margin-top: 7px">Here are my <mark style=" color: #D17A22"><a href="https://github.com/danielschristian">projects</a></mark> and my <a href="Christian_Daniel_Resume_2021.pdf">resume</a></mark></h2>
+               <h2 class="small-text mobile-column" style="padding-top: 0; margin-top: 7px">Here are my <mark style=" color: #D17A22"><a href="https://github.com/danielschristian">projects</a></mark> and my <a href="/Christian_Daniel_Resume_2021.pdf">resume</a></mark></h2>
             </div>
         </div>
     </div>
-        
+    <div class="push"></div>
+    </div>
+    
+    <footer class="footer">
+    <nav>
+        <ul>
+            <li class="navItem-footer">All rights reserved</li>
+            <div>
+            <li class="navItem-footer-right">Hosted with Google Firebase</li>
+            
+        </ul> 
+    </nav>
+    
+    
+    
+    
+    </footer>
     
         
         
