@@ -112,7 +112,7 @@ nav ul li a:hover {
 
 .profilePic {
     text-align: right;
-    padding-right: 60px
+    padding-right: 20px
 }
 
 .small-text
@@ -163,9 +163,10 @@ nav ul li a:hover {
     font-family: "Consolas";
 }
 
+
 /* Mobile Styles */
 
-@media only screen and (max-device-width: 1400px) {
+@media only screen and (max-device-width: 700px) {
     
     .mobile-column {
         width: 100%;
