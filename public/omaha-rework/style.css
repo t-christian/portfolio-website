@@ -1,6 +1,7 @@
 
 .navbar-home {
     background-color: lightskyblue;
+    justify-content: space-between;
 }
 
 a, #phone{
@@ -42,4 +43,108 @@ a:hover, #dropdownMenuLink:hover {
 
 li {
     text-decoration: none;
+}
+
+.hotline {
+    background-color:rgb(190, 69, 69);
+    padding: 2px;
+    margin: 20px;
+    margin-right: 5px;
+}
+
+.hotline-title {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-style: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.hotline-body {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px
+}
+
+.hotline-img{
+    height:auto;
+    width:50%;
+    box-shadow: 2px 4px 22px -4px rgba(0,0,0,0.53);
+    margin-top: 10px;
+    max-height: 100px;
+}
+
+.hotline-btn {
+    justify-content: center;
+}
+
+/* @media screen and (max-width: 1400px){
+    .card {
+        width: 100% !important;
+    }
+
+    .w-50 {
+        width: 100% !important;
+    }
+} */
+
+.wasteline {
+    background-color:rgb(34, 100, 39);
+    padding: 2px;
+    margin: 20px;
+    margin-left: 5px;
+
+}
+
+.arpa{
+    background-color:rgb(51, 115, 175);
+    padding: 2px;
+    margin: 20px;
+    margin-left: 5px;
+
+}
+
+.mayor-img {
+    height:auto;
+    width:250px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+p, h1, .mayor-video {
+    margin-left: 10px;
+}
+
+.mayor-video {
+    border-radius: 2px;
+}
+
+body {
+    background-size: cover;
+    height: 100%;
+}
+
+html {
+    background-color: white;
+}
+
+#body-text-card {
+    margin: 20px;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url(http://res.cloudinary.com/simpleview/image/upload/v1595614445/clients/omaha/omaha_skyline_EFrancis2018_10thSt_aef478fc-f262-487b-ae71-fe98fb89d3d4.jpg);
+    background-size: cover;
+    margin: auto;
+}
+
+#center-card {
+    margin: auto;
+    max-width: 75%;
+}
+
+#body-card {
+    background-color:#e5dbd7;
+    margin: 20px;
 }
