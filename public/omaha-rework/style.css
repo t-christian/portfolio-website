@@ -40,3 +40,6 @@ a:hover, #dropdownMenuLink:hover {
     justify-content: right;
 }
 
+li {
+    text-decoration: none;
+}
