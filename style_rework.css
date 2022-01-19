@@ -1,0 +1,80 @@
+body {
+    background-color: #121212;
+    margin-bottom: 60px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+.nav {
+    background-color: #252422;
+}
+
+.nav-link, li {
+    color: #D17A22;
+    font-family: "Consolas";
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: white;
+    cursor: default;
+}
+
+#landing-page-header-text {
+    margin: auto;
+    text-align: center;
+}
+
+mark, a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #D17A22;
+    font-family: "Consolas"
+}
+
+a:hover {
+    color: rgb(36, 127, 163);
+    cursor: default;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #D17A22;
+
+.landing-text {
+    color: white;
+    font-family: "Consolas";
+    font-weight: bold;
+    text-align: center;
+}
+
+.row {
+    margin: 3rem;
+}
+
+#profilePic {
+    border: 5px solid #555;
+    border-radius: 100%;
+    height: 100%;
+    width: auto;
+}
+
+.material-icons {
+    font-size: 3rem !important;
+    padding: 0.7rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #252422;
+    justify-content: space-between;
+  }
+
+.footer-item {
+    pointer-events: none;
+}
