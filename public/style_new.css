@@ -109,3 +109,12 @@ background-color: #252422;
     width: 2.5rem;
     margin: 10px 20px;
 }
+
+
+p {
+   font-size: 1.5vh;
+}
+
+#about-title {
+    font-size: 3vh;
+}
