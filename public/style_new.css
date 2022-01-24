@@ -1,6 +1,7 @@
 body {
     background-color: #121212;
     margin-bottom: 60px;
+    
 }
 
 html {
@@ -13,6 +14,7 @@ html {
 }
 
 .nav-link, li {
+    opacity:0;
     color: #D17A22;
     font-family: "Consolas";
     text-decoration: none;
@@ -48,6 +50,7 @@ a:hover {
 
 
 .landing-text {
+    opacity:0;
     color: white;
     font-family: "Consolas";
     font-weight: bold;
@@ -60,6 +63,7 @@ a:hover {
 }
 
 #profilePic {
+    opacity:0;
     border: 5px solid #555;
     border-radius: 100%;
     height: 100%;
@@ -68,6 +72,7 @@ a:hover {
 }
 
 .material-icons {
+    opacity:0;
     font-size: 4vh !important;
     padding: 0.7rem;
 }
@@ -82,6 +87,7 @@ a:hover {
 
 
 .card {
+    opacity:0;
     background-color: #252422;
     margin: 10px;
 }
@@ -105,14 +111,15 @@ background-color: #252422;
 }
 
 .social-media-icons {
+    opacity:0;
     height: 3vh;
     width: auto;
     margin: 10px 20px;
 }
 
 .email-icon {
-    background-color: white;
-    border-radius: 4px;
+    background-color: white !important;
+    border-radius: 4px !important;
 }
 
 p {
