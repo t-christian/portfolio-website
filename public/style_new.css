@@ -78,3 +78,21 @@ a:hover {
     background-color: #252422;
     justify-content: space-between;
   } */
+
+
+.card {
+    background-color: #252422;
+    margin: 10px;
+}
+
+.card:hover {
+    background-color: #444342;
+}
+
+.card-title {
+    color: #D17A22;
+}
+
+.card-text {
+    color: rgb(163, 163, 163);
+}

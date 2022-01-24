@@ -1,0 +1,116 @@
+.card {
+    width: 21rem;
+    padding: 0;
+    margin: 10px;
+    background-color: rgb(247, 243, 212)
+}
+
+#header-row {
+    justify-content: center;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+body {
+    background-image: url(http://res.cloudinary.com/simpleview/image/upload/v1595614445/clients/omaha/omaha_skyline_EFrancis2018_10thSt_aef478fc-f262-487b-ae71-fe98fb89d3d4.jpg);
+    margin: auto;
+}
+
+/* Nav Bar */
+.navbar-home {
+    background-color: lightskyblue;
+    justify-content: space-between;
+}
+
+a, #phone{
+    text-decoration: none;
+    color: rgb(108, 108, 117);
+    font-family: 'Work Sans', sans-serif;
+    font-style: bold;
+}
+
+a:hover, #dropdownMenuLink:hover {
+    color: rgb(56, 56, 61);
+}
+
+.navImage {
+    height: auto;
+    width: 150px;
+}
+
+#logo {
+    padding-left: 30px;
+    padding-top: 4px;
+}
+
+#dropdownMenuLink {
+    color:rgb(108, 108, 117);
+}
+
+#phone-nav {
+    justify-content: right;
+}
+
+.navbar-left {
+    justify-content: left;
+}
+
+.navbar-right {
+    justify-content: right;
+}
+
+#mainCard {
+    width: 75%;
+    padding: 10px;
+}
+
+#mainCard .card-title {
+    color:rgb(60, 117, 240);
+    font-weight:600;
+}
+
+#mayor-img {
+    float: left;
+    margin: 10px 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+#mayor-video {
+
+    border-radius: 7px;
+}
+
+h2 {
+    font-weight:600;
+    margin: 10px;
+}
+
+#news-info {
+    margin-top: 0px;
+}
+
+#news-img-1 {
+    background-image: url("https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/4/1d/41dd19bd-f8f0-567e-8263-dddf3559d811/5d1268deba897.image.jpg?resize=1200%2C800");
+    height: 400px;
+    width: 400px;
+}
+
+#news-img-2 {
+    background-image: url("https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/4/1d/41dd19bd-f8f0-567e-8263-dddf3559d811/5d1268deba897.image.jpg?resize=1200%2C800");
+    height: 200px;
+    width: 200x;
+}
+.img-text {
+    padding-top: 90%;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.img-gradiant {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.3925770991990546) 29%, rgba(0,0,0,0.5074230375744048) 68%);
