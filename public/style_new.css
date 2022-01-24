@@ -46,6 +46,7 @@ a:hover {
     color: rgb(90, 95, 97);
 }
 
+
 .landing-text {
     color: white;
     font-family: "Consolas";
@@ -86,13 +87,25 @@ a:hover {
 }
 
 .card:hover {
-    background-color: #444342;
+    background-color: #3a3938;
+}
+.noHover {
+    pointer-events:none;
 }
 
+#article:hover {
+background-color: #252422;
+}
 .card-title {
     color: #D17A22;
 }
 
 .card-text {
     color: rgb(163, 163, 163);
+}
+
+.social-media-icons {
+    height: auto;
+    width: 2.5rem;
+    margin: 10px 20px;
 }
