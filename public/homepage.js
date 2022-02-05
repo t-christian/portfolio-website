@@ -2,7 +2,7 @@
 //visited cookie logic
 if (document.cookie=='') {
     gsap.fromTo(".nav-link", {opacity: 0}, {duration: 1, opacity: 1});
-    document.cookie = 'visited: true; path:/'
+    document.cookie = 'visited: true; SameSite=None; Secure; path:/'
     }
 else{
     gsap.fromTo(".nav-link", {opacity: 1}, {duration: 1, opacity: 1});
