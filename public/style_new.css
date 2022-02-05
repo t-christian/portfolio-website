@@ -92,7 +92,11 @@ a:hover {
     margin: 10px;
 }
 
-.card:hover {
+#first-article.card:hover {
+    background-color: #3a3938;
+}
+
+#second-article.card:hover {
     background-color: #3a3938;
 }
 .noHover {
