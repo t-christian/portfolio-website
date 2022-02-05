@@ -87,7 +87,6 @@ a:hover {
 
 
 .card {
-    opacity:0;
     background-color: #252422;
     margin: 10px;
 }
@@ -133,3 +132,4 @@ p {
 #about-title {
     font-size: 3vh;
 }
+

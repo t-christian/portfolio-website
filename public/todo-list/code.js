@@ -25,17 +25,14 @@ function addNew() {
 function createNewTaskElementStruture(content, id) {
     //row w-100 div
     const mainDiv = document.createElement("div")
-    mainDiv.classList.add("row")
-    mainDiv.classList.add("w-100")
-    mainDiv.classList.add("custom-div")
+    mainDiv.classList.add("row","w-100","custom-div")
     const mainList = document.getElementById("mainList");
     mainList.appendChild(mainDiv);
     mainDiv.id = id
 
         //col
         const colOne = document.createElement("div")
-        colOne.classList.add("col")
-        colOne.classList.add("custom-col-1")
+        colOne.classList.add("col","custom-col-1")
             //h5 for task name
             const taskName = document.createElement("h5")
             taskName.innerHTML = content
@@ -45,14 +42,10 @@ function createNewTaskElementStruture(content, id) {
             mainDiv.appendChild(colOne)
         //col
         const colTwo = document.createElement("div")
-        colTwo.classList.add("col")
-        colOne.classList.add("custom-col-2")
-        colTwo.classList.add("d-flex")
-        colTwo.classList.add("justify-content-center")
+        colTwo.classList.add("col","custom-col-2","d-flex","justify-content-center")
             //button
             const newButton = document.createElement("button")
-            newButton.classList.add("btn")
-            newButton.classList.add("btn-danger")
+            newButton.classList.add("btn","btn-danger")
             colTwo.appendChild(newButton)
             mainDiv.appendChild(colTwo)
             newButton.setAttribute("onclick","deleteTask(event); removeCard()")
