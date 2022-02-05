@@ -1,8 +1,8 @@
 
 //visited cookie logic
-if (document.cookie=='') {
+if (!document.cookie.split('; ').find(row => row.startsWith('visited'))) {
     gsap.fromTo(".nav-link", {opacity: 0}, {duration: 1, opacity: 1});
-    document.cookie = 'visited: true; SameSite=None; Secure; path:/'
+    document.cookie = 'visited: true; path:/'
     }
 else{
     gsap.fromTo(".nav-link", {opacity: 1}, {duration: 1, opacity: 1});
