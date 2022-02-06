@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.error {
+    border-color: red;
+}
+
+#callNPCAmount {
+    border-radius: 4px;
+}

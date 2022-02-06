@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="style_gen.css"
+    <link rel="stylesheet" href="style_gen.css"
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monster Gen v.0.1</title>
-
 
 
 </head>
 <body>
     <div style="margin: 50px" class="row mx-auto w-50">
         <div class="card">
-            <h2 class="card-title mx-auto">Fantasy Generator</h2>
+            <h2 class="card-title mx-auto">NPC Generator</h2>
             <div class="card-body mx-auto"> I want a
                 <select id="raceSelect">
                     <option>Human</option>
@@ -31,9 +30,14 @@
                     <option selected>Random</option>
                 </select>
                 <br>
-                <br>
+                <br><p class="text-center">
+                <input placeholder="How many times?" max=10 type="number" id="callNPCAmount">
+                </select>
+            </p>
+
                 <div class="text-center">
-                <button onClick="genNPC()" class="btn btn-primary">Generate New NPC</button>
+                <button onClick="CallgenNPC()" class="btn btn-primary">Generate New NPC</button>
+                <button onClick="clearList()" class="btn btn-danger">Clear List</button>
             </div>
             </div>
             </div>
