@@ -15,7 +15,7 @@
     <div style="margin: 50px" class="row mx-auto w-50">
         <div class="card">
             <h2 class="card-title mx-auto">NPC Generator</h2>
-            <div class="card-body mx-auto"> I want a
+            <div class="card-body mx-auto"> I want <div id="sliderNum" style="display:inline">5</div>
                 <select id="raceSelect">
                     <option>human</option>
                     <option>gnome</option>
@@ -40,7 +40,7 @@
                 </select>
                 <br>
                 <br><p class="text-center">
-                <input placeholder="How many times?" max=10 type="number" id="callNPCAmount">
+                <input placeholder="How many times?" value="5" id="callNPCAmount" min="1" class="slider" max=10 type="range" id="callNPCAmount">
                 </select>
             </p>
 
