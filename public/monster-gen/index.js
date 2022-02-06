@@ -122,3 +122,11 @@ function pullRandomPronouns() {
     const adjList = ["he/him", "she/her", "they/them", "she/they", "he/they", "prefers name"]
     return adjList[getRandomIntInclusive(0, (adjList.length - 1))]
 }
+
+
+var slider = document.getElementById("callNPCAmount")
+var output = document.getElementById("sliderNum");
+
+slider.oninput = function() {
+    output.innerHTML = this.value;
+  } 

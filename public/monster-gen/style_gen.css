@@ -9,3 +9,7 @@ body {
 #callNPCAmount {
     border-radius: 4px;
 }
+
+.slider {
+    width: 100%;
+}
