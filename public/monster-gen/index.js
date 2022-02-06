@@ -1,5 +1,12 @@
+//cookie logic
+//© <Jan 24 2022> <peterbe> <https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie>
+// if (document.cookie.split('; ').find(row => row.startsWith('saved'))) {
+//     const container = document.getElementById("npcContainer")
+//     document.cookie
+    
+//     }
 
-//onl used to increment list amount, probably easier than counting everytime
+//only used to increment list amount, probably easier than counting everytime
 var highestAmt = 1
 function CallgenNPC() {
     const amountElement = document.getElementById("callNPCAmount")
@@ -58,6 +65,8 @@ function genNPC() {
     + pullRandomPronouns()
     + ')'
     +'</h5>'
+
+    // document.cookie = 'saved = ' + document.getElementById("npcContainer") + '; path:/'
 }
 
 function pullRandomAdj() {
@@ -77,7 +86,7 @@ function pullRandomClass() {
 }
 
 function pullRandomRace() {
-    const adjList = ["Human", "Gnome", "Florin", "Castori"]
+    const adjList = ["human", "gnome", "florin", "castori", "elf", "half-elf", "half-gnome", "tiefling", "incandarian"]
     return adjList[getRandomIntInclusive(0, (adjList.length - 1))]
 }
 
@@ -100,7 +109,7 @@ function clearList() {
 }
 
 function pullRandomAdv() {
-    const adjList = ["always", "usually", "generally", "sometimes", "occasionally", "rarely", "never"]
+    const adjList = ["always", "usually", "generally", "sometimes", "occasionally", "rarely", "never", "randomly", "frequently", "hardly", "constantly", "partially"]
     return adjList[getRandomIntInclusive(0, (adjList.length - 1))]
 }
 
