@@ -30,6 +30,22 @@ function GenNPCWithAmount(amount) {
         }
     }
 }
+
+// We're going to combine the start of the answer and the first pullRandomAdj
+// together and then continue through. Thanks stackoverflow.
+function CheckForVowel() {
+    const firstAdj = pullRandomAdj() // get adj as before
+    var vowelRegex = '^[aieouAIEOU].*' // range of vowels for both cases
+    var matched = firstAdj.match(vowelRegex) 
+    if(matched)
+        {
+        return ': An ' + firstAdj
+        }
+    else
+        {
+        return ': A ' + firstAdj
+        }
+
 function genNPC() {
     const raceSelectedElement = document.getElementById("raceSelect")
     var raceSelected = raceSelectedElement.options[raceSelectedElement.selectedIndex].text
@@ -46,8 +62,9 @@ function genNPC() {
     const npcList = document.getElementById("npcContainer")
     npcList.innerHTML += '<h5>' 
     + incrementList() 
-    + ': A ' 
-    + pullRandomAdj() 
+    // + ': A ' 
+    // + pullRandomAdj() 
+    + CheckForVowel()
     + ', ' 
     + pullRandomAdj() 
     + ', ' 
